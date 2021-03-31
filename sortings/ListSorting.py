@@ -2,7 +2,7 @@
 def myFunc(e):
   return len(e)
 
-cars = ['Ford', 'Mitsubishi', 'BMW', 'VW']
+cars = ['Jeep', 'Minicooper', 'Kia', 'Tesla']
 cars.sort(key=myFunc)
 print(cars)
 
